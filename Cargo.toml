@@ -1,0 +1,18 @@
+[package]
+name = "grep-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jose Ortiz <jose@joseortiz.io>"]
+description = "A simple grep clone written in Rust"
+
+[lib]
+name = "greprs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "greprs"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
