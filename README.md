@@ -31,3 +31,19 @@ cargo build --release
 ```bash
 ./greprs [PATTERN] [FILE]
 ```
+
+### Options
+*The offset in bytes of a matched pattern is displayed in front of the respective matched line.*
+```
+-b
+```
+
+*Only a count of selected lines is written to standard output.*
+```
+-c
+```
+
+*Perform case insensitive matching.  By default, grep is case sensitive.*
+```
+-i
+```
